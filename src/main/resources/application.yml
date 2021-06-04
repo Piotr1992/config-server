@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Piotr1992/configuration.git
+          username: szyperek.piotr@o2.pl
+          password: PLSzW-2020
+          refresh-rate: 15
+          timeout: 5
+          search-paths: 'configuration/configuration/accounts/production'
+server:
+  port: 8888
