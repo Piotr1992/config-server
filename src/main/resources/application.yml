@@ -10,6 +10,6 @@ spring:
           password: PLSzW-2020
           refresh-rate: 15
           timeout: 5
-          search-paths: 'configuration/configuration/accounts/production'
+          search-paths: 'configuration/,configuration/{application}/{profile}'
 server:
   port: 8888
