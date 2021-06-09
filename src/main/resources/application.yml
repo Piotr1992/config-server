@@ -8,6 +8,8 @@ spring:
           uri: https://github.com/Piotr1992/configuration.git
           username: szyperek.piotr@o2.pl
           password: PLSzW-2020
+          clone-on-start: true
+          default-label: master
           refresh-rate: 15
           timeout: 5
           search-paths: 'configuration/,configuration/{application}/{profile}'
